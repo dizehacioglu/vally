@@ -1,8 +1,52 @@
 body {
-  padding: 50px;
+  margin: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #777672;
 }
 
-a {
-  color: #00B7FF;
+header {
+  width: 100vw;
+  height: 150px;
+  background: url('/images/russia.jpeg');
+  background-size: cover;
+}
+
+nav {
+  /*width: 75vw;*/
+  height: 50px;
+  /*margin-top: -14px;*/
+  /*padding: 10px 0;*/
+  background-color: #D9EEF2;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 5px;
+  height: 50px;
+  width: 20%;
+  line-height: 50px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  /*background-color: blue;*/
+}
+
+nav li:hover {
+  /*background-color: red;*/
+  /*border-bottom: 2px solid blue;*/
+  background: url('http://www.dzinepress.com/wp-content/uploads/2011/07/05_stripes.jpg') 5%;
+}
+
+.circle {
+  position: absolute;
+  top: 81px;
+  right: 0px;
+  border-radius: 100px;
+  background: url('/images/vally.jpg');
+  width: 200px;
+  height: 200px;
+}
+
+.content {
+  padding: 10px;
 }

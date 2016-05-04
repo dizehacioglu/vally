@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  main
+    .container
+      form.col.s12
+        .row
+          .input-field.col.s6
+            input(type="text" name="first_name").validate#first_name
+            label(for="first_name") First Name
+          .input-field.col.s6
+            input(type="text").validate#last_name
+            label(for="last_name") Last Name
+        .row
+          .input-field.col.s12
+            textarea.materialize-textarea#contact-msg
+            label(for="contact-msg") What do you want to talk about?
+        .row
+          .input-field.col.s6
+            input(type="tel" name="phone").validate#phone
+            label(for="phone") Phone
+          .input-field.col.s6
+            input(type="email" name="email").validate#email
+            label(for="email") Email
+      .row.center
+        button(type="submit" name="action").btn.waves-effect.waves-light Submit
+            

@@ -7,6 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/resume', function(req, res, next) {
+    console.log(req);
   res.render('resume', { title: 'Valeria Dikovistkaya' });
 });
 
